@@ -188,6 +188,7 @@
     _imageNameArray = [[NSArray alloc] initWithObjects:@"message.png",@"picture.png",@"help.png",@"connectUs.png",@"cog.png",@"poweroff.png",nil];
     _titleArray = [[NSArray alloc] initWithObjects:@"通知",@"朋友圈",@"帮助",@"联系我们",@"设置",@"退出", nil];
     [_personalTableView registerClass:[PersonalTableViewCell class] forCellReuseIdentifier:@"personalCell"];
+    NSLog(@"+++++++++++++++++++++++++++++++++++++___________________________");
     
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
